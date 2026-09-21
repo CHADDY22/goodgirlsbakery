@@ -19,7 +19,7 @@
 }
 
 .hero-section.otb {
-  background-image: url('../images/background-no-sun.jpg'), linear-gradient(#eafcff, #eafcff);
+  background-image: url('../images/background-no-sun.avif'), linear-gradient(#eafcff, #eafcff);
   background-position: 50% 0, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
@@ -276,7 +276,7 @@
 }
 
 .checkerboard-row {
-  background-image: url('../images/purple-yellow-check.png');
+  background-image: url('../images/purple-yellow-check.avif');
   background-position: 0 0;
   background-repeat: repeat-x;
   background-size: contain;
@@ -523,6 +523,7 @@
 }
 
 .image-27 {
+  pointer-events: none;
   width: 300px;
   display: inline-block;
   position: absolute;
@@ -530,6 +531,7 @@
 }
 
 .image-28 {
+  pointer-events: none;
   width: 600px;
   display: block;
   position: absolute;
@@ -537,6 +539,7 @@
 }
 
 .image-29 {
+  pointer-events: none;
   width: 250px;
   display: inline-block;
   position: absolute;
@@ -645,7 +648,7 @@
 
 .otg-pic-1 {
   border: 4px solid var(--purple);
-  background-image: url('../images/F236F8DD-5369-476F-A851-439D43DC60F2Tezza-9296-copy.jpeg');
+  background-image: url('../images/F236F8DD-5369-476F-A851-439D43DC60F2Tezza-9296-copy.avif');
   background-position: 50%;
   background-size: cover;
   background-attachment: scroll;
@@ -1024,7 +1027,7 @@
   grid-row-gap: 0px;
   border: 2px solid var(--yellow);
   cursor: pointer;
-  background-image: linear-gradient(#00000075, #00000075), url('../images/sourdough-bread.jpg');
+  background-image: linear-gradient(#00000075, #00000075), url('../images/sourdough-bread.avif');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   border-radius: 20px;
@@ -1041,7 +1044,7 @@
 }
 
 .class-thumbnail-img:hover {
-  background-image: linear-gradient(#00000085, #00000085), url('../images/sourdough-bread.jpg');
+  background-image: linear-gradient(#00000085, #00000085), url('../images/sourdough-bread.avif');
   background-position: 0 0, 50%;
   background-size: auto, cover;
 }
@@ -1361,7 +1364,7 @@
 }
 
 .hero-background {
-  background-image: url('../images/background-no-sun.jpg');
+  background-image: url('../images/background-no-sun.avif');
   background-position: 50% 0;
   background-size: cover;
   flex-flow: column;
@@ -1434,12 +1437,14 @@
 }
 
 .image-67 {
+  pointer-events: none;
   width: 250px;
   position: absolute;
   inset: auto 131px 3% auto;
 }
 
 .image-68 {
+  pointer-events: none;
   width: 350px;
   position: absolute;
   inset: auto auto 5% 98px;
@@ -2111,7 +2116,7 @@
   }
 
   .hero-section.otb {
-    background-image: url('../images/background-no-sun.jpg'), linear-gradient(#0000, #0000);
+    background-image: url('../images/background-no-sun.avif'), linear-gradient(#0000, #0000);
     background-size: cover, auto;
     min-width: auto;
     min-height: auto;

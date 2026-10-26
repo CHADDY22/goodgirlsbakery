@@ -1737,6 +1737,15 @@
   text-decoration: none;
 }
 
+.text-block-45 {
+  color: var(--off-white);
+  text-align: center;
+  margin-top: 20px;
+  font-family: aglet-sans, sans-serif;
+  font-size: 22px;
+  line-height: 29px;
+}
+
 @media screen and (max-width: 991px) {
   .page-wrapper {
     width: 100vw;
@@ -2901,6 +2910,10 @@
   .image-80 {
     order: -9999;
     max-width: 100%;
+  }
+
+  .text-block-45 {
+    font-size: 17px;
   }
 }
 

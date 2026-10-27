@@ -154,7 +154,7 @@
   border-radius: 20px;
   flex-flow: column;
   width: 600px;
-  margin-top: 0;
+  margin-top: 20px;
   padding-bottom: 0;
   display: flex;
   position: relative;
@@ -1371,7 +1371,8 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 100dvh;
+  height: 110dvh;
+  margin-top: 0;
   display: flex;
   position: relative;
 }
@@ -1892,6 +1893,10 @@
     max-width: none;
   }
 
+  .hero-background {
+    height: 123dvh;
+  }
+
   .cuppy {
     right: auto;
   }
@@ -2170,6 +2175,10 @@
 
   .abot-blck {
     max-width: 95vw;
+  }
+
+  .hero-background {
+    height: 115dvh;
   }
 
   .abrocado, .cuppy {
@@ -2720,6 +2729,7 @@
   .hero-background {
     background-size: cover;
     height: auto;
+    margin-top: 20px;
     padding: 180px 0 140px;
   }
 
